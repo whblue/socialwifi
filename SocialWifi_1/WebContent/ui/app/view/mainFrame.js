@@ -514,7 +514,7 @@ Ext.define('app.view.mainFrame', {
                                             fn: function(){
                                             	var date=Ext.getCmp('start').getValue();
                                             	Ext.Ajax.request({
-                                            	    url: 'http://localhost:8080/Demo_V1/fee',
+                                            	    url: 'http://localhost:8080/SocialWifi_1/fee',
                                             	    params: {
                                             	        date:date
                                             	    },
