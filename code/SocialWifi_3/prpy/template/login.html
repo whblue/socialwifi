@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>register</title>
+    {% load static %}
+    {% get_static_prefix as STATIC_PREFIX %}
+    <link href="{{STATIC_PREFIX}}extjs4/resources/ext-theme-neptune-all.css" rel="stylesheet" />
+    <link href="{{STATIC_PREFIX}}extjs4/resources/style.css" rel="stylesheet" />
+    <script src="{{STATIC_PREFIX}}extjs4/resources/ext-all-debug.js"></script>
+    <script src="{{STATIC_PREFIX}}app.js"></script>
+</head>
+<body style="background-color:#bbbbbb">
+{%block body%}{% endblock %}
+</body>
+</html>
