@@ -1,0 +1,8 @@
+原型设计-界面设计vs版本为第一次原型设计，单独的版本，可以打开demo.sln版本查看
+数据库orm设计为初版数据库模型表映射关系设计代码，仅包括模型py和部分访问py代码
+
+剩下的三个文件夹为迭代整合版本
+
+SocialWifi_1为初次java整合版本。
+SocialWifi_2为实现了社交平台的整合版本 这个版本在database中对应socialwifi_1.sql
+SocialWifi_3为最终版本 这个版本在database中对应socialwifi_2.sql
